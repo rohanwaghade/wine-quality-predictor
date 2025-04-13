@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # Command to run your actual Python script (replace main.py with your actual script name)
-CMD ["python", "main.py"]
+CMD ["python", "winequality.py"]
