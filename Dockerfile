@@ -10,5 +10,5 @@ COPY . /app
 # Install any dependencies (if you have requirements.txt)
 RUN pip install -r requirements.txt
 
-# Command to run your application
-CMD ["python", "your_script.py"]
+# Command to run your actual Python script (replace main.py with your actual script name)
+CMD ["python", "main.py"]
